@@ -1,17 +1,21 @@
 name: textfield_flutter
-description: "A new Flutter project."
-version: 0.0.1
-homepage: https://github.com/rahul-gola/textfield_flutter.git
+description: "Flutter library that provides customizable text input fields with error handling and validation features"
+version: 0.0.3
+repository: https://github.com/rahul-gola/textfield_flutter.git
 
 environment:
-  sdk: '>=2.19.0 <4.0.0'
+  sdk: ^3.8.1
 
 dependencies:
   flutter:
     sdk: flutter
 
+  meta: ^1.16.0
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  flutter_lints: ^6.0.0
 
-  flutter_lints: ^4.0.0
+flutter:
+  uses-material-design: true
